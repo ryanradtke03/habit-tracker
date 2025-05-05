@@ -1,0 +1,128 @@
+.habit-detail h1 {
+  color: #4caf50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.dashboard {
+  background: #121212;
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #4caf50; /* matching the green theme */
+}
+h2 {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.add-habit {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-habit input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: none;
+  background: #1c1c1e;
+  color: #fff;
+}
+
+.add-habit input::placeholder {
+  color: #aaa;
+}
+
+.add-habit button {
+  background: #0a84ff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.add-habit button:hover {
+  background: #007aff;
+}
+
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.habit-card {
+  background: #1c1c1e;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.habit-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.habit-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.habit-left input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: #0a84ff;
+}
+
+.habit-name {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.habit-name:hover {
+  text-decoration: underline;
+}
+
+.habit-delete {
+  background: #ff453a;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.habit-delete:hover {
+  background: #e53935;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.progress-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}

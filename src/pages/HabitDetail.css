@@ -1,0 +1,43 @@
+.habit-detail {
+  max-width: 700px;
+  margin: 2rem auto;
+  color: #eaeaea;
+  text-align: center;
+}
+
+.habit-detail h2 {
+  color: #4caf50;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.habit-detail section {
+  background-color: #1c1c1e;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.habit-detail h3,
+.habit-detail h4 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.habit-detail p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.habit-detail a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0a84ff;
+  text-decoration: none;
+}
+
+.habit-detail a:hover {
+  text-decoration: underline;
+}
